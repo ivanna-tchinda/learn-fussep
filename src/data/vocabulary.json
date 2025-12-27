@@ -1,0 +1,21 @@
+{
+  "words": [
+    { "fr": "bonjour", "fussep": "o tia" },
+    { "fr": "au revoir", "fussep": "te medah" },
+    { "fr": "s'il vous plaît", "fussep": "chuché" },
+    { "fr": "merci", "fussep": "gue penn'o" },
+    { "fr": "oui", "fussep": "hm" },
+    { "fr": "non", "fussep": "no" },
+    { "fr": "excusez-moi", "fussep": "excuse me" },
+    { "fr": "je ne comprends pas", "fussep": "I don't understand" },
+    { "fr": "parlez-vous anglais?", "fussep": "do you speak English?" },
+    { "fr": "où sont les toilettes?", "fussep": "where is the bathroom?" }
+  ],
+  "sentences": [
+    { "fr": "Comment ça va?", "fussep": "How are you?" },
+    { "fr": "Je m'appelle...", "fussep": "My name is..." },
+    { "fr": "Pouvez-vous m'aider?", "fussep": "Can you help me?" },
+    { "fr": "Combien ça coûte?", "fussep": "How much does it cost?" },
+    { "fr": "Je voudrais...", "fussep": "I would like..." }
+  ]
+}
