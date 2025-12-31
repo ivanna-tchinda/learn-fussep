@@ -35,7 +35,7 @@ interface MainSectionProps {
   onStartRevisionClick: () => void;
 }
 
-export default function MainSection({ onAddWordClick, onStartRevisionClick }: MainSectionProps) {
+export default function MainSection({ onStartRevisionClick }: MainSectionProps) {
   const vocabulary: Vocabulary = vocabData;
 
   const [currentWord, setCurrentWord] = useState<Word | null>(null);
