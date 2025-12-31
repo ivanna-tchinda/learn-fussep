@@ -58,12 +58,12 @@ export default function MainSection({ onAddWordClick, onStartRevisionClick }: Ma
   return (
     <div className="w-full max-w-md space-y-4">
       {/* Bouton principal: Ajouter un mot */}
-      <button
+      {/* <button
         onClick={onAddWordClick}
         className="w-full py-4 px-6 bg-brown-700 text-white rounded-lg font-medium text-lg shadow-md hover:bg-brown-800 active:bg-brown-900 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-brown-500 focus:ring-offset-2"
       >
         Ajouter un mot
-      </button>
+      </button> */}
 
       {/* Bouton secondaire: Commencer la révision */}
       <button

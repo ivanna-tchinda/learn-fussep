@@ -32,7 +32,7 @@ function AddWordModal({ onClose }: AddWordModalProps) {
       <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
         <div className="bg-white rounded-lg shadow-xl w-full max-w-md max-h-[90vh] overflow-y-auto">
           {/* En-tête du modal */}
-          <div className="flex items-center justify-between p-6 border-b border-beige-200">
+          {/* <div className="flex items-center justify-between p-6 border-b border-beige-200">
             <h2 className="text-xl font-semibold text-brown-800">
               Ajouter un mot
             </h2>
@@ -43,7 +43,7 @@ function AddWordModal({ onClose }: AddWordModalProps) {
             >
               ×
             </button>
-          </div>
+          </div> */}
 
           {/* Formulaire */}
           <form onSubmit={handleSave} className="p-6 space-y-4">
