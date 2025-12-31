@@ -4,11 +4,7 @@
     { "fr": "au revoir", "fussep": "te medah" },
     { "fr": "s'il vous plaît", "fussep": "chuché" },
     { "fr": "merci", "fussep": "gue penn'o" },
-    { "fr": "oui", "fussep": "hm" },
-    { "fr": "non", "fussep": "no" },
-    { "fr": "excuse-moi", "fussep": "Tchowsia" }
-  ],
-  "sentences": [
+    { "fr": "excuse-moi", "fussep": "Tchowsia" },
     { "fr": "Comment ça va?", "fussep": "Amgueke?" }
   ]
 }

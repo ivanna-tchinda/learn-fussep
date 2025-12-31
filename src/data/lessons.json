@@ -1,0 +1,63 @@
+{
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Salutations",
+      "newWords": [
+        { "id": 1, "fr": "bonjour", "fussep": "o tia" },
+        { "id": 2, "fr": "Comment ça va?", "fussep": "Amgueke?" }
+      ],
+      "exercises": [
+        { "type": "translate_to_fr", "question": "o tia", "answer": "bonjour", "instruction": "Traduis ce mot en français" },
+        { "type": "translate_to_fussep", "question": "bonjour", "answer": "o tia", "instruction": "Traduis ce mot en fussep" },
+        { "type": "translate_to_fr", "question": "Amgueke?", "answer": "Comment ça va?", "instruction": "Traduis cette phrase en français" },
+        { "type": "translate_to_fussep", "question": "Comment ça va?", "answer": "Amgueke?", "instruction": "Traduis cette phrase en fussep" },
+        { "type": "translate_to_fr", "question": "teuchong?", "answer": "Comment ça va?", "instruction": "Traduis cette phrase en français" },
+        { "type": "choose_correct", "question": "o tia Amgueke?", "choices": ["bonjour Comment ça va?", "merci au revoir", "oui non"], "answer": "bonjour Comment ça va?", "instruction": "Choisis la bonne traduction" },
+        { "type": "choose_correct", "question": "o tia teuchong?", "choices": ["bonjour Comment ça va?", "bonjour au revoir", "merci bonjour"], "answer": "bonjour Comment ça va?", "instruction": "Choisis la bonne traduction" },
+        { "type": "translate_to_fr", "question": "Amgueke?", "answer": "Comment ça va?", "instruction": "Traduis cette phrase en français" },
+        { "type": "translate_to_fussep", "question": "bonjour", "answer": "o tia", "instruction": "Traduis ce mot en fussep" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Réponses et au revoir",
+      "newWords": [
+        { "id": 3, "fr": "merci", "fussep": "gue penn" },
+        { "id": 4, "fr": "a bientot", "fussep": "te medah" }
+      ],
+      "exercises": [
+        { "type": "translate_to_fr", "question": "gue penn", "answer": "merci", "instruction": "Traduis ce mot en français" },
+        { "type": "translate_to_fussep", "question": "merci", "answer": "gue penn", "instruction": "Traduis ce mot en fussep" },
+        { "type": "translate_to_fr", "question": "te medah", "answer": "a bientot", "instruction": "Traduis ce mot en français" },
+        { "type": "translate_to_fussep", "question": "a bientot", "answer": "te medah", "instruction": "Traduis ce mot en fussep" },
+        { "type": "choose_correct", "question": "gue penn te medah", "choices": ["merci a bientot", "bonjour Comment ça va?", "oui non"], "answer": "merci a bientot", "instruction": "Choisis la bonne traduction" },
+        { "type": "translate_to_fr", "question": "gue penn", "answer": "merci", "instruction": "Traduis ce mot en français" },
+        { "type": "translate_to_fussep", "question": "a bientot", "answer": "te medah", "instruction": "Traduis ce mot en fussep" },
+        { "type": "choose_correct", "question": "te medah", "choices": ["a bientot", "merci", "bonjour"], "answer": "a bientot", "instruction": "Choisis la bonne traduction" },
+        { "type": "translate_to_fr", "question": "te medah", "answer": "a bientot", "instruction": "Traduis ce mot en français" },
+        { "type": "translate_to_fussep", "question": "merci", "answer": "gue penn", "instruction": "Traduis ce mot en fussep" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Politesse",
+      "newWords": [
+        { "id": 5, "fr": "excuse-moi", "fussep": "tchowsia" },
+        { "id": 6, "fr": "s'il te plaît", "fussep": "chuché" }
+      ],
+      "exercises": [
+        { "type": "translate_to_fr", "question": "tchowsia", "answer": "excuse-moi", "instruction": "Traduis ce mot en français" },
+        { "type": "translate_to_fussep", "question": "excuse-moi", "answer": "tchowsia", "instruction": "Traduis ce mot en fussep" },
+        { "type": "translate_to_fr", "question": "chuché", "answer": "s'il te plaît", "instruction": "Traduis ce mot en français" },
+        { "type": "translate_to_fussep", "question": "s'il te plaît", "answer": "chuché", "instruction": "Traduis ce mot en fussep" },
+        { "type": "choose_correct", "question": "tchowsia chuché", "choices": ["excuse-moi s'il te plaît", "merci bonjour", "a bientot oui"], "answer": "excuse-moi s'il te plaît", "instruction": "Choisis la bonne traduction" },
+        { "type": "translate_to_fr", "question": "tchowsia", "answer": "excuse-moi", "instruction": "Traduis ce mot en français" },
+        { "type": "translate_to_fussep", "question": "s'il te plaît", "answer": "chuché", "instruction": "Traduis ce mot en fussep" },
+        { "type": "choose_correct", "question": "chuché", "choices": ["s'il te plaît", "excuse-moi", "merci"], "answer": "s'il te plaît", "instruction": "Choisis la bonne traduction" },
+        { "type": "translate_to_fr", "question": "chuché", "answer": "s'il te plaît", "instruction": "Traduis ce mot en français" },
+        { "type": "translate_to_fussep", "question": "excuse-moi", "answer": "tchowsia", "instruction": "Traduis ce mot en fussep" }
+      ]
+    }
+  ]
+}
