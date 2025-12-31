@@ -6,16 +6,9 @@
     { "fr": "merci", "fussep": "gue penn'o" },
     { "fr": "oui", "fussep": "hm" },
     { "fr": "non", "fussep": "no" },
-    { "fr": "excusez-moi", "fussep": "excuse me" },
-    { "fr": "je ne comprends pas", "fussep": "I don't understand" },
-    { "fr": "parlez-vous anglais?", "fussep": "do you speak English?" },
-    { "fr": "où sont les toilettes?", "fussep": "where is the bathroom?" }
+    { "fr": "excuse-moi", "fussep": "Tchowsia" }
   ],
   "sentences": [
-    { "fr": "Comment ça va?", "fussep": "How are you?" },
-    { "fr": "Je m'appelle...", "fussep": "My name is..." },
-    { "fr": "Pouvez-vous m'aider?", "fussep": "Can you help me?" },
-    { "fr": "Combien ça coûte?", "fussep": "How much does it cost?" },
-    { "fr": "Je voudrais...", "fussep": "I would like..." }
+    { "fr": "Comment ça va?", "fussep": "Amgueke?" }
   ]
 }
