@@ -30,14 +30,14 @@ function getRandomItem<T>(array: T[]): T | null {
 }
 
 // Props pour le composant
-// interface MainSectionProps {
-//   onAddWordClick: () => void;
-// }
+interface MainSectionProps {
+  onAddWordClick: () => void;
+  onStartRevisionClick: () => void;
+}
 
-export default function MainSection() {
+export default function MainSection({ onAddWordClick, onStartRevisionClick }: MainSectionProps) {
   const vocabulary: Vocabulary = vocabData;
 
-  // State pour le mot aléatoire
   const [currentWord, setCurrentWord] = useState<Word | null>(null);
   const [showTranslation, setShowTranslation] = useState(false);
 
@@ -46,9 +46,11 @@ export default function MainSection() {
     const word = getRandomItem(vocabulary.words);
     setCurrentWord(word);
     setShowTranslation(false);
+
+    // Déclenche le callback pour App.tsx
+    onStartRevisionClick();
   };
 
-  // Afficher ou cacher la traduction
   const toggleTranslation = () => {
     setShowTranslation(prev => !prev);
   };
@@ -56,12 +58,12 @@ export default function MainSection() {
   return (
     <div className="w-full max-w-md space-y-4">
       {/* Bouton principal: Ajouter un mot */}
-      {/* <button
+      <button
         onClick={onAddWordClick}
         className="w-full py-4 px-6 bg-brown-700 text-white rounded-lg font-medium text-lg shadow-md hover:bg-brown-800 active:bg-brown-900 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-brown-500 focus:ring-offset-2"
       >
         Ajouter un mot
-      </button> */}
+      </button>
 
       {/* Bouton secondaire: Commencer la révision */}
       <button
@@ -77,9 +79,7 @@ export default function MainSection() {
           onClick={toggleTranslation}
           className="mt-4 p-6 bg-beige-100 rounded-lg shadow cursor-pointer text-center select-none"
         >
-          <p className="text-2xl font-semibold">
-            {currentWord.fussep}
-          </p>
+          <p className="text-2xl font-semibold">{currentWord.fussep}</p>
           {showTranslation && (
             <p className="mt-2 text-lg text-brown-800">{currentWord.fr}</p>
           )}
