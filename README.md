@@ -1,39 +1,38 @@
-Fussep Learning App
+# Fussep Learning App
 
-Application web pour apprendre la langue Fussep.
-Inspirée de Duolingo, elle propose des leçons progressives avec des exercices interactifs pour apprendre des mots et phrases en Fussep.
+Application web pour apprendre la langue **Fussep**.  
+Inspirée de **Duolingo**, elle propose des leçons progressives avec des exercices interactifs pour apprendre des mots et des phrases en Fussep.
 
-📖 Objectif
+## 📖 Objectif
 
-Apprendre le Fussep de manière progressive, leçon par leçon.
+- Apprendre le Fussep de manière progressive, leçon par leçon.
+- Répéter les mots déjà vus pour renforcer la mémorisation.
+- Proposer des exercices interactifs :
+  - traduction
+  - QCM
+  - saisie libre
+- Fournir un feedback immédiat et un système de notation.
 
-Répéter les mots déjà vus pour renforcer la mémorisation.
+## ⚡ Fonctionnalités
 
-Exercices interactifs : traduction, QCM, saisie libre.
+- **Sélection de leçons** : choisir la leçon à étudier.
+- **Exercices dynamiques** : mélange de mots nouveaux et déjà vus.
 
-Feedback immédiat et système de notation.
+### Types d’exercices
 
-⚡ Fonctionnalités
+- Traduction vers le français
+- Traduction vers le Fussep
+- QCM (choisir la bonne traduction parmi 3 options)
 
-Sélection de leçons : choisir la leçon à étudier.
+### Suivi de progression
 
-Exercices dynamiques : mélanger mots nouveaux et déjà vus.
+- Feedback instantané : réponse correcte ou incorrecte.
+- Système de notation : score affiché au fur et à mesure.
+- Fin de leçon : message de fin et score final.
 
-Types d’exercices :
 
-Traduction vers le français
-
-Traduction vers le Fussep
-
-QCM (choisir la bonne traduction parmi 3 options)
-
-Feedback instantané : réponse correcte ou incorrecte.
-
-Système de notation : score affiché au fur et à mesure.
-
-Fin de leçon : message de fin et score final.
-
-📁 Structure du projet
+## 📁 Structure du projet
+```
 src/
  ├─ components/
  │   ├─ Header.tsx
@@ -49,59 +48,61 @@ src/
  ├─ engines/
  │   └─ LessonEngine.ts
  └─ App.tsx
+ ```
 
 
-data/words.json → liste des mots Fussep avec leurs traductions.
+**data/words.json** → liste des mots Fussep avec leurs traductions.
 
-data/lessons.json → structure des leçons et mots à apprendre.
+**data/lessons.json** → structure des leçons et mots à apprendre.
 
-types/ → types TypeScript pour mots, leçons et exercices.
+**types/** → types TypeScript pour mots, leçons et exercices.
 
-engines/LessonEngine.ts → logique de génération automatique des exercices.
+**engines/LessonEngine.ts** → logique de génération automatique des exercices.
 
-components/ → composants React pour l’UI.
+**components/** → composants React pour l’UI.
 
-App.tsx → gestion de la leçon, de la progression et du score.
+**App.tsx** → gestion de la leçon, de la progression et du score.
 
-⚙️ Installation
+## ⚙️ Installation
 
-Cloner le dépôt :
+- Cloner le dépôt :
 
+```
 git clone https://github.com/ivanna-tchinda/learn-fussep.git
 cd learn-fussep
+```
 
+- Installer les dépendances :
 
-Installer les dépendances :
-
+```
 npm install
+```
 
+- Lancer l’application :
 
-Lancer l’application :
-
+```
 npm start
+```
 
-
-Ouvrir ensuite http://localhost:3000
+Ouvrir ensuite [http://localhost:5173](http://localhost:5173)
  dans le navigateur.
 
-🛠️ Utilisation
+## 🛠️ Utilisation
 
-Sélectionner une leçon dans la liste.
+- Sélectionner une leçon dans la liste.
+- Répondre aux exercices :
+  - Saisie libre pour traduire
+  - QCM pour choisir la bonne traduction
+- Après validation, le score est mis à jour.
+- Cliquer sur **Suivant** pour passer à l’exercice suivant.
+- À la fin de la leçon, le score final est affiché.
 
-Répondre aux exercices :
 
-Saisie libre pour traduire
+## 📝 Format des fichiers JSON
 
-QCM pour choisir la bonne traduction
+### words.json
 
-Après validation, le score est mis à jour.
-
-Cliquer sur Suivant pour passer à l’exercice suivant.
-
-À la fin de la leçon, le score final est affiché.
-
-📝 Format des fichiers JSON
-words.json
+```json
 {
   "words": [
     {
@@ -116,15 +117,15 @@ words.json
     }
   ]
 }
+```
+- id : identifiant unique
 
+- fr : mot ou phrase en français
 
-id : identifiant unique
+- fussep : tableau de traductions possibles en Fussep
 
-fr : mot ou phrase en français
-
-fussep : tableau de traductions possibles en Fussep
-
-lessons.json
+### lessons.json
+```json
 {
   "lessons": [
     {
@@ -135,28 +136,16 @@ lessons.json
     }
   ]
 }
+```
 
+- id : identifiant unique de la leçon
 
-id : identifiant unique de la leçon
+- title : nom de la leçon
 
-title : nom de la leçon
+- newWordIds : tableau des id des mots à apprendre
 
-newWordIds : tableau des id des mots à apprendre
+- exerciseCount : nombre d’exercices générés dynamiquement
 
-exerciseCount : nombre d’exercices générés dynamiquement
-
-💡 Contributions
-
-Les contributions sont les bienvenues :
-
-Ajouter de nouvelles leçons et mots.
-
-Ajouter de nouveaux types d’exercices.
-
-Améliorer l’UX et le design.
-
-Merci de faire un fork, créer une branche, puis proposer une Pull Request.
-
-📄 License
+## 📄 License
 
 MIT License – libre d’utilisation et modification.
