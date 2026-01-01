@@ -1,46 +1,206 @@
 {
-  "lessons": [
-    {
-      "id": 1,
-      "title": "Salutations",
-      "newWordIds": [1, 2],
-      "exerciseCount": 8
-    },
-    {
-      "id": 2,
-      "title": "Remercier",
-      "newWordIds": [3, 8],
-      "exerciseCount": 8
-    },
-    {
-      "id": 3,
-      "title": "Dire au revoir",
-      "newWordIds": [4, 7],
-      "exerciseCount": 8
-    },
-    {
-      "id": 4,
-      "title": "Politesse",
-      "newWordIds": [5, 6],
-      "exerciseCount": 8
-    },
-    {
-      "id": 5,
-      "title": "Exprimer son désaccord",
-      "newWordIds": [11, 12],
-      "exerciseCount": 8
-    },
-    {
-      "id": 6,
-      "title": "Exprimer ses besoins",
-      "newWordIds": [9, 10],
-      "exerciseCount": 8
-    },
-    {
-      "id": 7,
-      "title": "Demander des nouvelles",
-      "newWordIds": [13],
-      "exerciseCount": 6
-    }
-  ]
+    "lessons": [
+        {
+            "id": 1,
+            "title": "Salutations",
+            "newWordIds": [
+                1,
+                2
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 2,
+            "title": "Remercier",
+            "newWordIds": [
+                3,
+                8
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 3,
+            "title": "Dire au revoir",
+            "newWordIds": [
+                4,
+                7
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 4,
+            "title": "Politesse",
+            "newWordIds": [
+                5,
+                6
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 5,
+            "title": "Exprimer son désaccord",
+            "newWordIds": [
+                11,
+                12
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 6,
+            "title": "Exprimer ses besoins",
+            "newWordIds": [
+                9,
+                10
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 7,
+            "title": "Demander des nouvelles",
+            "newWordIds": [
+                13
+            ],
+            "exerciseCount": 6
+        },
+        {
+            "id": 8,
+            "title": "Parler du temps",
+            "newWordIds": [
+                14,
+                15
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 9,
+            "title": "Exprimer le moment",
+            "newWordIds": [
+                16,
+                17
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 10,
+            "title": "Fréquence",
+            "newWordIds": [
+                18,
+                19
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 11,
+            "title": "Négation et habitude",
+            "newWordIds": [
+                20
+            ],
+            "exerciseCount": 6
+        },
+        {
+            "id": 12,
+            "title": "Moments de la journée",
+            "newWordIds": [
+                21,
+                22
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 13,
+            "title": "Lieux du quotidien",
+            "newWordIds": [
+                23,
+                24
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 14,
+            "title": "Aller à l'école et en ville",
+            "newWordIds": [
+                25,
+                26
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 15,
+            "title": "Faire des courses",
+            "newWordIds": [
+                27,
+                28
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 16,
+            "title": "Se situer",
+            "newWordIds": [
+                29,
+                30
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 17,
+            "title": "Manger et boire",
+            "newWordIds": [
+                31,
+                32
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 18,
+            "title": "Objets du quotidien",
+            "newWordIds": [
+                33
+            ],
+            "exerciseCount": 6
+        },
+        {
+            "id": 19,
+            "title": "Décrire",
+            "newWordIds": [
+                34,
+                35
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 20,
+            "title": "Comparer",
+            "newWordIds": [
+                36
+            ],
+            "exerciseCount": 6
+        },
+        {
+            "id": 21,
+            "title": "Poser des questions",
+            "newWordIds": [
+                37,
+                38
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 22,
+            "title": "Expressions courantes",
+            "newWordIds": [
+                39,
+                40
+            ],
+            "exerciseCount": 8
+        },
+        {
+            "id": 23,
+            "title": "Essentiels",
+            "newWordIds": [
+                41
+            ],
+            "exerciseCount": 6
+        }
+    ]
 }
