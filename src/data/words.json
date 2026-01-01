@@ -1,0 +1,82 @@
+{
+  "words": [
+    {
+      "id": 1,
+      "fr": "bonjour",
+      "fussep": ["o tia"],
+      "audio": []
+    },
+    {
+      "id": 2,
+      "fr": "Comment ça va?",
+      "fussep": ["Amgueke?", "teuchong?"],
+      "audio": []
+    },
+    {
+      "id": 3,
+      "fr": "merci",
+      "fussep": ["gue penn"],
+      "audio": []
+    },
+    {
+      "id": 4,
+      "fr": "à bientôt",
+      "fussep": ["te mendah"],
+      "audio": []
+    },
+    {
+      "id": 5,
+      "fr": "excuse-moi",
+      "fussep": ["tchowsia"],
+      "audio": []
+    },
+    {
+      "id": 6,
+      "fr": "s'il te plaît",
+      "fussep": ["chuché"],
+      "audio": []
+    },
+    {
+      "id": 7,
+      "fr": "Au revoir",
+      "fussep": ["O'o mbah"],
+      "audio": []
+    },
+    {
+      "id": 8,
+      "fr": "Merci beaucoup",
+      "fussep": ["gue penn o te"],
+      "audio": []
+    },
+    {
+      "id": 9,
+      "fr": "J'ai faim",
+      "fussep": ["Nzi won zen gue"],
+      "audio": []
+    },
+    {
+      "id": 10,
+      "fr": "C'est bon",
+      "fussep": ["A puon"],
+      "audio": []
+    },
+    {
+      "id": 11,
+      "fr": "Je n'aime pas",
+      "fussep": ["Ka kwon"],
+      "audio": []
+    },
+    {
+      "id": 12,
+      "fr": "Je ne vais pas bien",
+      "fussep": ["A ka yin"],
+      "audio": []
+    },
+    {
+      "id": 13,
+      "fr": "Ca va mieux?",
+      "fussep": ["A na ngah?"],
+      "audio": []
+    }
+  ]
+}
